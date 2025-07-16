@@ -1,0 +1,77 @@
+{
+    "appVersion": "1.0.0",
+    "dataVersion": "1.0.0",
+    "lastUpdated": "2025-07-15T14:38:12.000Z",
+    "description": "HR Analytics Dashboard Mock Data",
+    "dataSettings": {
+      "employeeCount": 150,
+      "departmentCount": 5,
+      "monthsOfData": 6,
+      "forecastMonths": 12
+    },
+    "departments": [
+      {
+        "id": "ENG",
+        "name": "Engineering",
+        "description": "Software development and technical teams"
+      },
+      {
+        "id": "SAL",
+        "name": "Sales",
+        "description": "Sales and business development teams"
+      },
+      {
+        "id": "MKT",
+        "name": "Marketing",
+        "description": "Marketing and communications teams"
+      },
+      {
+        "id": "HR",
+        "name": "Human Resources",
+        "description": "HR and people operations teams"
+      },
+      {
+        "id": "FIN",
+        "name": "Finance",
+        "description": "Finance and accounting teams"
+      }
+    ],
+    "jobLevels": [
+      { "level": 1, "title": "Entry Level", "salaryRange": { "min": 40000, "max": 55000 } },
+      { "level": 2, "title": "Junior", "salaryRange": { "min": 50000, "max": 70000 } },
+      { "level": 3, "title": "Associate", "salaryRange": { "min": 65000, "max": 90000 } },
+      { "level": 4, "title": "Senior", "salaryRange": { "min": 80000, "max": 120000 } },
+      { "level": 5, "title": "Lead", "salaryRange": { "min": 100000, "max": 150000 } },
+      { "level": 6, "title": "Principal", "salaryRange": { "min": 130000, "max": 180000 } },
+      { "level": 7, "title": "Manager", "salaryRange": { "min": 120000, "max": 170000 } },
+      { "level": 8, "title": "Senior Manager", "salaryRange": { "min": 150000, "max": 220000 } },
+      { "level": 9, "title": "Director", "salaryRange": { "min": 180000, "max": 280000 } },
+      { "level": 10, "title": "Executive", "salaryRange": { "min": 250000, "max": 400000 } }
+    ],
+    "contractTypes": ["Permanent", "Contract", "Part-time"],
+    "employmentStatuses": ["Active", "Leave", "Retired"],
+    "genders": ["Male", "Female"],
+    "timeRange": {
+      "startMonth": "202501",
+      "endMonth": "202506",
+      "forecastStart": "202507",
+      "forecastEnd": "202512"
+    },
+    "modelInfo": {
+      "headcountModel": {
+        "type": "Prophet + XGBoost",
+        "accuracy": 92.5,
+        "lastTrained": "2025-07-01"
+      },
+      "turnoverModel": {
+        "type": "XGBoost",
+        "accuracy": 87.3,
+        "lastTrained": "2025-07-01"
+      },
+      "salaryModel": {
+        "type": "LightGBM",
+        "accuracy": 89.8,
+        "lastTrained": "2025-07-01"
+      }
+    }
+  }

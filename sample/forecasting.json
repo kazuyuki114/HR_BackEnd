@@ -1,0 +1,368 @@
+{
+    "lastUpdated": "2025-07-15T14:38:12.000Z",
+    "headcountForecast": [
+      {
+        "department": "ENG",
+        "month": "202507",
+        "predicted_headcount": 48,
+        "confidence_lower": 45,
+        "confidence_upper": 51,
+        "growth_rate": 6.7,
+        "trend": "Increasing",
+        "factors": ["Open requisitions", "Project expansion", "Market demand"]
+      },
+      {
+        "department": "ENG",
+        "month": "202508",
+        "predicted_headcount": 52,
+        "confidence_lower": 48,
+        "confidence_upper": 56,
+        "growth_rate": 8.3,
+        "trend": "Increasing",
+        "factors": ["Continued hiring", "Team scaling"]
+      },
+      {
+        "department": "ENG",
+        "month": "202509",
+        "predicted_headcount": 55,
+        "confidence_lower": 51,
+        "confidence_upper": 59,
+        "growth_rate": 5.8,
+        "trend": "Increasing",
+        "factors": ["Steady growth", "New product launch"]
+      },
+      {
+        "department": "SAL",
+        "month": "202507",
+        "predicted_headcount": 35,
+        "confidence_lower": 33,
+        "confidence_upper": 38,
+        "growth_rate": 9.4,
+        "trend": "Increasing",
+        "factors": ["Sales expansion", "New markets"]
+      },
+      {
+        "department": "SAL",
+        "month": "202508",
+        "predicted_headcount": 38,
+        "confidence_lower": 35,
+        "confidence_upper": 42,
+        "growth_rate": 8.6,
+        "trend": "Increasing",
+        "factors": ["Territory expansion", "Revenue targets"]
+      },
+      {
+        "department": "MKT",
+        "month": "202507",
+        "predicted_headcount": 30,
+        "confidence_lower": 28,
+        "confidence_upper": 32,
+        "growth_rate": 7.1,
+        "trend": "Increasing",
+        "factors": ["Campaign scaling", "Digital expansion"]
+      },
+      {
+        "department": "HR",
+        "month": "202507",
+        "predicted_headcount": 17,
+        "confidence_lower": 16,
+        "confidence_upper": 18,
+        "growth_rate": 13.3,
+        "trend": "Increasing",
+        "factors": ["Org growth support", "Compliance needs"]
+      },
+      {
+        "department": "FIN",
+        "month": "202507",
+        "predicted_headcount": 24,
+        "confidence_lower": 22,
+        "confidence_upper": 26,
+        "growth_rate": 9.1,
+        "trend": "Increasing",
+        "factors": ["Regulatory requirements", "Process improvement"]
+      }
+    ],
+    "turnoverForecast": [
+      {
+        "department": "ENG",
+        "month": "202507",
+        "spike_risk_percentage": 15.2,
+        "predicted_turnover_count": 2,
+        "drivers": ["Market competition", "Remote work policies"],
+        "suggested_action": "Review compensation benchmarks",
+        "severity": "Low",
+        "confidence_score": 0.82
+      },
+      {
+        "department": "SAL",
+        "month": "202507",
+        "spike_risk_percentage": 28.7,
+        "predicted_turnover_count": 4,
+        "drivers": ["Commission structure", "Target pressure", "Management changes"],
+        "suggested_action": "Implement retention program for high performers",
+        "severity": "Medium",
+        "confidence_score": 0.76
+      },
+      {
+        "department": "MKT",
+        "month": "202507",
+        "spike_risk_percentage": 12.4,
+        "predicted_turnover_count": 1,
+        "drivers": ["Career progression", "Skills development"],
+        "suggested_action": "Enhance professional development programs",
+        "severity": "Low",
+        "confidence_score": 0.88
+      },
+      {
+        "department": "HR",
+        "month": "202507",
+        "spike_risk_percentage": 8.9,
+        "predicted_turnover_count": 0,
+        "drivers": ["Workload balance", "Role clarity"],
+        "suggested_action": "Monitor workload distribution",
+        "severity": "Low",
+        "confidence_score": 0.91
+      },
+      {
+        "department": "FIN",
+        "month": "202507",
+        "spike_risk_percentage": 18.3,
+        "predicted_turnover_count": 1,
+        "drivers": ["Process automation", "Role evolution"],
+        "suggested_action": "Upskill team on new technologies",
+        "severity": "Low",
+        "confidence_score": 0.79
+      }
+    ],
+    "salaryForecast": [
+      {
+        "department": "ENG",
+        "month": "202507",
+        "predicted_avg_salary": 107200,
+        "salary_growth_rate": 1.6,
+        "inflation_impact": 0.8,
+        "market_adjustment": 0.8,
+        "confidence_lower": 105000,
+        "confidence_upper": 109500
+      },
+      {
+        "department": "ENG",
+        "month": "202508",
+        "predicted_avg_salary": 108800,
+        "salary_growth_rate": 1.5,
+        "inflation_impact": 0.7,
+        "market_adjustment": 0.8,
+        "confidence_lower": 106500,
+        "confidence_upper": 111200
+      },
+      {
+        "department": "SAL",
+        "month": "202507",
+        "predicted_avg_salary": 91800,
+        "salary_growth_rate": 2.0,
+        "inflation_impact": 0.8,
+        "market_adjustment": 1.2,
+        "confidence_lower": 89500,
+        "confidence_upper": 94200
+      },
+      {
+        "department": "MKT",
+        "month": "202507",
+        "predicted_avg_salary": 81600,
+        "salary_growth_rate": 2.0,
+        "inflation_impact": 0.8,
+        "market_adjustment": 1.2,
+        "confidence_lower": 79800,
+        "confidence_upper": 83500
+      },
+      {
+        "department": "HR",
+        "month": "202507",
+        "predicted_avg_salary": 81600,
+        "salary_growth_rate": 2.0,
+        "inflation_impact": 0.8,
+        "market_adjustment": 1.2,
+        "confidence_lower": 79800,
+        "confidence_upper": 83500
+      },
+      {
+        "department": "FIN",
+        "month": "202507",
+        "predicted_avg_salary": 91800,
+        "salary_growth_rate": 2.0,
+        "inflation_impact": 0.8,
+        "market_adjustment": 1.2,
+        "confidence_lower": 89500,
+        "confidence_upper": 94200
+      }
+    ],
+    "costForecast": [
+      {
+        "department": "ENG",
+        "month": "202507",
+        "predicted_total_cost": 5145600,
+        "cost_breakdown": {
+          "base_salary": 4800000,
+          "allowance": 144000,
+          "overtime": 96000,
+          "bonus": 76800,
+          "insurance": 28800
+        },
+        "variance_from_budget": 8.3,
+        "confidence_interval": {
+          "lower": 4950000,
+          "upper": 5350000
+        }
+      },
+      {
+        "department": "SAL",
+        "month": "202507",
+        "predicted_total_cost": 3213000,
+        "cost_breakdown": {
+          "base_salary": 3010000,
+          "allowance": 90300,
+          "overtime": 60200,
+          "bonus": 40400,
+          "insurance": 12100
+        },
+        "variance_from_budget": 11.6,
+        "confidence_interval": {
+          "lower": 3100000,
+          "upper": 3320000
+        }
+      },
+      {
+        "department": "MKT",
+        "month": "202507",
+        "predicted_total_cost": 2448000,
+        "cost_breakdown": {
+          "base_salary": 2295000,
+          "allowance": 68850,
+          "overtime": 45900,
+          "bonus": 30600,
+          "insurance": 7650
+        },
+        "variance_from_budget": 9.3,
+        "confidence_interval": {
+          "lower": 2350000,
+          "upper": 2550000
+        }
+      },
+      {
+        "department": "HR",
+        "month": "202507",
+        "predicted_total_cost": 1387200,
+        "cost_breakdown": {
+          "base_salary": 1300000,
+          "allowance": 39000,
+          "overtime": 26000,
+          "bonus": 17333,
+          "insurance": 4867
+        },
+        "variance_from_budget": 15.6,
+        "confidence_interval": {
+          "lower": 1320000,
+          "upper": 1450000
+        }
+      },
+      {
+        "department": "FIN",
+        "month": "202507",
+        "predicted_total_cost": 2203200,
+        "cost_breakdown": {
+          "base_salary": 2064000,
+          "allowance": 61920,
+          "overtime": 41280,
+          "bonus": 27520,
+          "insurance": 8480
+        },
+        "variance_from_budget": 11.3,
+        "confidence_interval": {
+          "lower": 2120000,
+          "upper": 2290000
+        }
+      }
+    ],
+    "timeToFillForecast": [
+      {
+        "position_code": "SE_L3",
+        "department": "ENG",
+        "job_level": 3,
+        "estimated_days": 42,
+        "confidence_score": 0.87,
+        "factors": {
+          "market_demand": "High",
+          "skill_availability": "Moderate",
+          "salary_competitiveness": "Market",
+          "location_attractiveness": 8
+        },
+        "recommendations": ["Expand sourcing channels", "Consider remote candidates"]
+      },
+      {
+        "position_code": "SM_L4",
+        "department": "SAL",
+        "job_level": 4,
+        "estimated_days": 35,
+        "confidence_score": 0.82,
+        "factors": {
+          "market_demand": "Medium",
+          "skill_availability": "Abundant",
+          "salary_competitiveness": "Above",
+          "location_attractiveness": 7
+        },
+        "recommendations": ["Leverage referral program", "Focus on cultural fit"]
+      },
+      {
+        "position_code": "MM_L5",
+        "department": "MKT",
+        "job_level": 5,
+        "estimated_days": 58,
+        "confidence_score": 0.75,
+        "factors": {
+          "market_demand": "High",
+          "skill_availability": "Scarce",
+          "salary_competitiveness": "Market",
+          "location_attractiveness": 7
+        },
+        "recommendations": ["Consider contract-to-hire", "Internal promotion pathway"]
+      }
+    ],
+    "modelPerformance": [
+      {
+        "model_name": "Headcount Forecast",
+        "model_type": "Prophet",
+        "target_variable": "predicted_headcount",
+        "accuracy_metrics": {
+          "mape": 7.2,
+          "rmse": 3.8,
+          "r2_score": 0.925
+        },
+        "last_trained": "2025-07-01T00:00:00.000Z",
+        "features_used": ["month", "department", "headcount_t-1", "headcount_t-2", "open_requisitions", "planned_projects"]
+      },
+      {
+        "model_name": "Turnover Risk",
+        "model_type": "XGBoost",
+        "target_variable": "spike_risk_percentage",
+        "accuracy_metrics": {
+          "mape": 12.4,
+          "rmse": 5.6,
+          "r2_score": 0.873
+        },
+        "last_trained": "2025-07-01T00:00:00.000Z",
+        "features_used": ["month", "department", "resignation_rate_last_month", "promotion_rate", "overtime_hours_avg"]
+      },
+      {
+        "model_name": "Salary Forecast",
+        "model_type": "LightGBM",
+        "target_variable": "predicted_avg_salary",
+        "accuracy_metrics": {
+          "mape": 4.8,
+          "rmse": 2850,
+          "r2_score": 0.898
+        },
+        "last_trained": "2025-07-01T00:00:00.000Z",
+        "features_used": ["department", "month", "avg_salary_previous", "salary_growth_rolling_3mo", "inflation_rate"]
+      }
+    ]
+  }

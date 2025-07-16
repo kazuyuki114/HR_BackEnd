@@ -1,0 +1,156 @@
+[
+    {
+      "Attendance_id": "ATT001_202506",
+      "Employee_id": "EMP001",
+      "Time_id": "202506",
+      "Department_id": "ENG",
+      "Job_level_id": 4,
+      "Hours_worked": 168,
+      "Absence_days": 1,
+      "Late_days": 2,
+      "Type": 1
+    },
+    {
+      "Attendance_id": "ATT002_202506",
+      "Employee_id": "EMP002",
+      "Time_id": "202506",
+      "Department_id": "ENG",
+      "Job_level_id": 2,
+      "Hours_worked": 172,
+      "Absence_days": 0,
+      "Late_days": 1,
+      "Type": 1
+    },
+    {
+      "Attendance_id": "ATT003_202506",
+      "Employee_id": "EMP003",
+      "Time_id": "202506",
+      "Department_id": "SAL",
+      "Job_level_id": 5,
+      "Hours_worked": 165,
+      "Absence_days": 2,
+      "Late_days": 3,
+      "Type": 1
+    },
+    {
+      "Attendance_id": "ATT004_202506",
+      "Employee_id": "EMP004",
+      "Time_id": "202506",
+      "Department_id": "MKT",
+      "Job_level_id": 3,
+      "Hours_worked": 170,
+      "Absence_days": 1,
+      "Late_days": 0,
+      "Type": 1
+    },
+    {
+      "Attendance_id": "ATT005_202506",
+      "Employee_id": "EMP005",
+      "Time_id": "202506",
+      "Department_id": "HR",
+      "Job_level_id": 3,
+      "Hours_worked": 174,
+      "Absence_days": 0,
+      "Late_days": 1,
+      "Type": 1
+    },
+    {
+      "Attendance_id": "ATT006_202506",
+      "Employee_id": "EMP006",
+      "Time_id": "202506",
+      "Department_id": "FIN",
+      "Job_level_id": 3,
+      "Hours_worked": 169,
+      "Absence_days": 1,
+      "Late_days": 1,
+      "Type": 1
+    },
+    {
+      "Attendance_id": "ATT007_202506",
+      "Employee_id": "EMP007",
+      "Time_id": "202506",
+      "Department_id": "ENG",
+      "Job_level_id": 3,
+      "Hours_worked": 171,
+      "Absence_days": 0,
+      "Late_days": 2,
+      "Type": 1
+    },
+    {
+      "Attendance_id": "ATT008_202506",
+      "Employee_id": "EMP008",
+      "Time_id": "202506",
+      "Department_id": "SAL",
+      "Job_level_id": 2,
+      "Hours_worked": 166,
+      "Absence_days": 1,
+      "Late_days": 1,
+      "Type": 1
+    },
+    {
+      "Attendance_id": "ATT010_202506",
+      "Employee_id": "EMP010",
+      "Time_id": "202506",
+      "Department_id": "FIN",
+      "Job_level_id": 6,
+      "Hours_worked": 175,
+      "Absence_days": 0,
+      "Late_days": 0,
+      "Type": 1
+    },
+    {
+      "Attendance_id": "ATT011_202506",
+      "Employee_id": "EMP011",
+      "Time_id": "202506",
+      "Department_id": "ENG",
+      "Job_level_id": 1,
+      "Hours_worked": 173,
+      "Absence_days": 0,
+      "Late_days": 1,
+      "Type": 1
+    },
+    {
+      "Attendance_id": "ATT012_202506",
+      "Employee_id": "EMP012",
+      "Time_id": "202506",
+      "Department_id": "HR",
+      "Job_level_id": 7,
+      "Hours_worked": 176,
+      "Absence_days": 0,
+      "Late_days": 0,
+      "Type": 1
+    },
+    {
+      "Attendance_id": "ATT013_202506",
+      "Employee_id": "EMP013",
+      "Time_id": "202506",
+      "Department_id": "SAL",
+      "Job_level_id": 3,
+      "Hours_worked": 140,
+      "Absence_days": 0,
+      "Late_days": 2,
+      "Type": 2
+    },
+    {
+      "Attendance_id": "ATT014_202506",
+      "Employee_id": "EMP014",
+      "Time_id": "202506",
+      "Department_id": "MKT",
+      "Job_level_id": 2,
+      "Hours_worked": 167,
+      "Absence_days": 1,
+      "Late_days": 1,
+      "Type": 1
+    },
+    {
+      "Attendance_id": "ATT015_202506",
+      "Employee_id": "EMP015",
+      "Time_id": "202506",
+      "Department_id": "ENG",
+      "Job_level_id": 5,
+      "Hours_worked": 177,
+      "Absence_days": 0,
+      "Late_days": 0,
+      "Type": 1
+    }
+  ]

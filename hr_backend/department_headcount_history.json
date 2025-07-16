@@ -1,0 +1,1959 @@
+{
+  "metadata": {
+    "generated_timestamp": "2025-07-16T22:45:22.138901",
+    "data_source": "CSV files from sample folder",
+    "total_departments": 10,
+    "data_period": "01/2022 to 07/2025"
+  },
+  "summary": {
+    "total_current_headcount": 966,
+    "average_headcount_per_department": 96.6,
+    "largest_department": {
+      "name": "Retail Banking",
+      "headcount": 390,
+      "percentage_of_total": 40.37
+    },
+    "smallest_department": {
+      "name": "Corporate",
+      "headcount": 38,
+      "percentage_of_total": 3.93
+    }
+  },
+  "departments": {
+    "Operations": {
+      "department_code": "OPS",
+      "current_headcount": 40,
+      "growth_rate_percent": 100.0,
+      "average_headcount": 43.0,
+      "peak_headcount": 70,
+      "peak_month": "11/2024",
+      "data_points": 43,
+      "historical_data": [
+        {
+          "month_year": "01/2022",
+          "headcount": 20
+        },
+        {
+          "month_year": "02/2022",
+          "headcount": 21
+        },
+        {
+          "month_year": "03/2022",
+          "headcount": 21
+        },
+        {
+          "month_year": "04/2022",
+          "headcount": 22
+        },
+        {
+          "month_year": "05/2022",
+          "headcount": 22
+        },
+        {
+          "month_year": "06/2022",
+          "headcount": 23
+        },
+        {
+          "month_year": "07/2022",
+          "headcount": 23
+        },
+        {
+          "month_year": "08/2022",
+          "headcount": 24
+        },
+        {
+          "month_year": "09/2022",
+          "headcount": 24
+        },
+        {
+          "month_year": "10/2022",
+          "headcount": 25
+        },
+        {
+          "month_year": "11/2022",
+          "headcount": 26
+        },
+        {
+          "month_year": "12/2022",
+          "headcount": 26
+        },
+        {
+          "month_year": "01/2023",
+          "headcount": 27
+        },
+        {
+          "month_year": "02/2023",
+          "headcount": 28
+        },
+        {
+          "month_year": "03/2023",
+          "headcount": 30
+        },
+        {
+          "month_year": "04/2023",
+          "headcount": 32
+        },
+        {
+          "month_year": "05/2023",
+          "headcount": 34
+        },
+        {
+          "month_year": "06/2023",
+          "headcount": 36
+        },
+        {
+          "month_year": "07/2023",
+          "headcount": 38
+        },
+        {
+          "month_year": "08/2023",
+          "headcount": 40
+        },
+        {
+          "month_year": "09/2023",
+          "headcount": 42
+        },
+        {
+          "month_year": "10/2023",
+          "headcount": 44
+        },
+        {
+          "month_year": "11/2023",
+          "headcount": 46
+        },
+        {
+          "month_year": "12/2023",
+          "headcount": 48
+        },
+        {
+          "month_year": "01/2024",
+          "headcount": 50
+        },
+        {
+          "month_year": "02/2024",
+          "headcount": 52
+        },
+        {
+          "month_year": "03/2024",
+          "headcount": 54
+        },
+        {
+          "month_year": "04/2024",
+          "headcount": 56
+        },
+        {
+          "month_year": "05/2024",
+          "headcount": 58
+        },
+        {
+          "month_year": "06/2024",
+          "headcount": 60
+        },
+        {
+          "month_year": "07/2024",
+          "headcount": 62
+        },
+        {
+          "month_year": "08/2024",
+          "headcount": 64
+        },
+        {
+          "month_year": "09/2024",
+          "headcount": 66
+        },
+        {
+          "month_year": "10/2024",
+          "headcount": 68
+        },
+        {
+          "month_year": "11/2024",
+          "headcount": 70
+        },
+        {
+          "month_year": "12/2024",
+          "headcount": 68
+        },
+        {
+          "month_year": "01/2025",
+          "headcount": 66
+        },
+        {
+          "month_year": "02/2025",
+          "headcount": 64
+        },
+        {
+          "month_year": "03/2025",
+          "headcount": 62
+        },
+        {
+          "month_year": "04/2025",
+          "headcount": 60
+        },
+        {
+          "month_year": "05/2025",
+          "headcount": 55
+        },
+        {
+          "month_year": "06/2025",
+          "headcount": 50
+        },
+        {
+          "month_year": "07/2025",
+          "headcount": 40
+        }
+      ],
+      "trends": {
+        "starting_headcount": 20,
+        "ending_headcount": 40,
+        "total_growth": 20,
+        "period_covered": "01/2022 to 07/2025"
+      }
+    },
+    "Compliance": {
+      "department_code": "COM",
+      "current_headcount": 110,
+      "growth_rate_percent": 292.86,
+      "average_headcount": 68.0,
+      "peak_headcount": 110,
+      "peak_month": "07/2025",
+      "data_points": 43,
+      "historical_data": [
+        {
+          "month_year": "01/2022",
+          "headcount": 28
+        },
+        {
+          "month_year": "02/2022",
+          "headcount": 28
+        },
+        {
+          "month_year": "03/2022",
+          "headcount": 30
+        },
+        {
+          "month_year": "04/2022",
+          "headcount": 32
+        },
+        {
+          "month_year": "05/2022",
+          "headcount": 34
+        },
+        {
+          "month_year": "06/2022",
+          "headcount": 36
+        },
+        {
+          "month_year": "07/2022",
+          "headcount": 38
+        },
+        {
+          "month_year": "08/2022",
+          "headcount": 40
+        },
+        {
+          "month_year": "09/2022",
+          "headcount": 42
+        },
+        {
+          "month_year": "10/2022",
+          "headcount": 44
+        },
+        {
+          "month_year": "11/2022",
+          "headcount": 46
+        },
+        {
+          "month_year": "12/2022",
+          "headcount": 48
+        },
+        {
+          "month_year": "01/2023",
+          "headcount": 50
+        },
+        {
+          "month_year": "02/2023",
+          "headcount": 52
+        },
+        {
+          "month_year": "03/2023",
+          "headcount": 54
+        },
+        {
+          "month_year": "04/2023",
+          "headcount": 56
+        },
+        {
+          "month_year": "05/2023",
+          "headcount": 58
+        },
+        {
+          "month_year": "06/2023",
+          "headcount": 60
+        },
+        {
+          "month_year": "07/2023",
+          "headcount": 62
+        },
+        {
+          "month_year": "08/2023",
+          "headcount": 64
+        },
+        {
+          "month_year": "09/2023",
+          "headcount": 66
+        },
+        {
+          "month_year": "10/2023",
+          "headcount": 68
+        },
+        {
+          "month_year": "11/2023",
+          "headcount": 70
+        },
+        {
+          "month_year": "12/2023",
+          "headcount": 72
+        },
+        {
+          "month_year": "01/2024",
+          "headcount": 74
+        },
+        {
+          "month_year": "02/2024",
+          "headcount": 76
+        },
+        {
+          "month_year": "03/2024",
+          "headcount": 78
+        },
+        {
+          "month_year": "04/2024",
+          "headcount": 80
+        },
+        {
+          "month_year": "05/2024",
+          "headcount": 82
+        },
+        {
+          "month_year": "06/2024",
+          "headcount": 84
+        },
+        {
+          "month_year": "07/2024",
+          "headcount": 86
+        },
+        {
+          "month_year": "08/2024",
+          "headcount": 88
+        },
+        {
+          "month_year": "09/2024",
+          "headcount": 90
+        },
+        {
+          "month_year": "10/2024",
+          "headcount": 92
+        },
+        {
+          "month_year": "11/2024",
+          "headcount": 94
+        },
+        {
+          "month_year": "12/2024",
+          "headcount": 96
+        },
+        {
+          "month_year": "01/2025",
+          "headcount": 98
+        },
+        {
+          "month_year": "02/2025",
+          "headcount": 100
+        },
+        {
+          "month_year": "03/2025",
+          "headcount": 102
+        },
+        {
+          "month_year": "04/2025",
+          "headcount": 104
+        },
+        {
+          "month_year": "05/2025",
+          "headcount": 106
+        },
+        {
+          "month_year": "06/2025",
+          "headcount": 108
+        },
+        {
+          "month_year": "07/2025",
+          "headcount": 110
+        }
+      ],
+      "trends": {
+        "starting_headcount": 28,
+        "ending_headcount": 110,
+        "total_growth": 82,
+        "period_covered": "01/2022 to 07/2025"
+      }
+    },
+    "Transformation Office": {
+      "department_code": "TO",
+      "current_headcount": 40,
+      "growth_rate_percent": 700.0,
+      "average_headcount": 28.9,
+      "peak_headcount": 56,
+      "peak_month": "11/2024",
+      "data_points": 43,
+      "historical_data": [
+        {
+          "month_year": "01/2022",
+          "headcount": 5
+        },
+        {
+          "month_year": "02/2022",
+          "headcount": 5
+        },
+        {
+          "month_year": "03/2022",
+          "headcount": 6
+        },
+        {
+          "month_year": "04/2022",
+          "headcount": 6
+        },
+        {
+          "month_year": "05/2022",
+          "headcount": 6
+        },
+        {
+          "month_year": "06/2022",
+          "headcount": 7
+        },
+        {
+          "month_year": "07/2022",
+          "headcount": 7
+        },
+        {
+          "month_year": "08/2022",
+          "headcount": 8
+        },
+        {
+          "month_year": "09/2022",
+          "headcount": 8
+        },
+        {
+          "month_year": "10/2022",
+          "headcount": 9
+        },
+        {
+          "month_year": "11/2022",
+          "headcount": 9
+        },
+        {
+          "month_year": "12/2022",
+          "headcount": 10
+        },
+        {
+          "month_year": "01/2023",
+          "headcount": 12
+        },
+        {
+          "month_year": "02/2023",
+          "headcount": 14
+        },
+        {
+          "month_year": "03/2023",
+          "headcount": 16
+        },
+        {
+          "month_year": "04/2023",
+          "headcount": 18
+        },
+        {
+          "month_year": "05/2023",
+          "headcount": 20
+        },
+        {
+          "month_year": "06/2023",
+          "headcount": 22
+        },
+        {
+          "month_year": "07/2023",
+          "headcount": 24
+        },
+        {
+          "month_year": "08/2023",
+          "headcount": 26
+        },
+        {
+          "month_year": "09/2023",
+          "headcount": 28
+        },
+        {
+          "month_year": "10/2023",
+          "headcount": 30
+        },
+        {
+          "month_year": "11/2023",
+          "headcount": 32
+        },
+        {
+          "month_year": "12/2023",
+          "headcount": 34
+        },
+        {
+          "month_year": "01/2024",
+          "headcount": 36
+        },
+        {
+          "month_year": "02/2024",
+          "headcount": 38
+        },
+        {
+          "month_year": "03/2024",
+          "headcount": 40
+        },
+        {
+          "month_year": "04/2024",
+          "headcount": 42
+        },
+        {
+          "month_year": "05/2024",
+          "headcount": 44
+        },
+        {
+          "month_year": "06/2024",
+          "headcount": 46
+        },
+        {
+          "month_year": "07/2024",
+          "headcount": 48
+        },
+        {
+          "month_year": "08/2024",
+          "headcount": 50
+        },
+        {
+          "month_year": "09/2024",
+          "headcount": 52
+        },
+        {
+          "month_year": "10/2024",
+          "headcount": 54
+        },
+        {
+          "month_year": "11/2024",
+          "headcount": 56
+        },
+        {
+          "month_year": "12/2024",
+          "headcount": 54
+        },
+        {
+          "month_year": "01/2025",
+          "headcount": 52
+        },
+        {
+          "month_year": "02/2025",
+          "headcount": 50
+        },
+        {
+          "month_year": "03/2025",
+          "headcount": 48
+        },
+        {
+          "month_year": "04/2025",
+          "headcount": 45
+        },
+        {
+          "month_year": "05/2025",
+          "headcount": 43
+        },
+        {
+          "month_year": "06/2025",
+          "headcount": 42
+        },
+        {
+          "month_year": "07/2025",
+          "headcount": 40
+        }
+      ],
+      "trends": {
+        "starting_headcount": 5,
+        "ending_headcount": 40,
+        "total_growth": 35,
+        "period_covered": "01/2022 to 07/2025"
+      }
+    },
+    "Finance & Accounting": {
+      "department_code": "FIN",
+      "current_headcount": 76,
+      "growth_rate_percent": 117.14,
+      "average_headcount": 55.4,
+      "peak_headcount": 76,
+      "peak_month": "06/2025",
+      "data_points": 43,
+      "historical_data": [
+        {
+          "month_year": "01/2022",
+          "headcount": 35
+        },
+        {
+          "month_year": "02/2022",
+          "headcount": 36
+        },
+        {
+          "month_year": "03/2022",
+          "headcount": 35
+        },
+        {
+          "month_year": "04/2022",
+          "headcount": 32
+        },
+        {
+          "month_year": "05/2022",
+          "headcount": 39
+        },
+        {
+          "month_year": "06/2022",
+          "headcount": 40
+        },
+        {
+          "month_year": "07/2022",
+          "headcount": 41
+        },
+        {
+          "month_year": "08/2022",
+          "headcount": 42
+        },
+        {
+          "month_year": "09/2022",
+          "headcount": 46
+        },
+        {
+          "month_year": "10/2022",
+          "headcount": 44
+        },
+        {
+          "month_year": "11/2022",
+          "headcount": 43
+        },
+        {
+          "month_year": "12/2022",
+          "headcount": 45
+        },
+        {
+          "month_year": "01/2023",
+          "headcount": 46
+        },
+        {
+          "month_year": "02/2023",
+          "headcount": 48
+        },
+        {
+          "month_year": "03/2023",
+          "headcount": 49
+        },
+        {
+          "month_year": "04/2023",
+          "headcount": 47
+        },
+        {
+          "month_year": "05/2023",
+          "headcount": 51
+        },
+        {
+          "month_year": "06/2023",
+          "headcount": 52
+        },
+        {
+          "month_year": "07/2023",
+          "headcount": 53
+        },
+        {
+          "month_year": "08/2023",
+          "headcount": 54
+        },
+        {
+          "month_year": "09/2023",
+          "headcount": 55
+        },
+        {
+          "month_year": "10/2023",
+          "headcount": 59
+        },
+        {
+          "month_year": "11/2023",
+          "headcount": 58
+        },
+        {
+          "month_year": "12/2023",
+          "headcount": 55
+        },
+        {
+          "month_year": "01/2024",
+          "headcount": 56
+        },
+        {
+          "month_year": "02/2024",
+          "headcount": 61
+        },
+        {
+          "month_year": "03/2024",
+          "headcount": 61
+        },
+        {
+          "month_year": "04/2024",
+          "headcount": 61
+        },
+        {
+          "month_year": "05/2024",
+          "headcount": 63
+        },
+        {
+          "month_year": "06/2024",
+          "headcount": 64
+        },
+        {
+          "month_year": "07/2024",
+          "headcount": 62
+        },
+        {
+          "month_year": "08/2024",
+          "headcount": 66
+        },
+        {
+          "month_year": "09/2024",
+          "headcount": 63
+        },
+        {
+          "month_year": "10/2024",
+          "headcount": 68
+        },
+        {
+          "month_year": "11/2024",
+          "headcount": 69
+        },
+        {
+          "month_year": "12/2024",
+          "headcount": 70
+        },
+        {
+          "month_year": "01/2025",
+          "headcount": 71
+        },
+        {
+          "month_year": "02/2025",
+          "headcount": 71
+        },
+        {
+          "month_year": "03/2025",
+          "headcount": 73
+        },
+        {
+          "month_year": "04/2025",
+          "headcount": 71
+        },
+        {
+          "month_year": "05/2025",
+          "headcount": 75
+        },
+        {
+          "month_year": "06/2025",
+          "headcount": 76
+        },
+        {
+          "month_year": "07/2025",
+          "headcount": 76
+        }
+      ],
+      "trends": {
+        "starting_headcount": 35,
+        "ending_headcount": 76,
+        "total_growth": 41,
+        "period_covered": "01/2022 to 07/2025"
+      }
+    },
+    "Risk Management": {
+      "department_code": "RM",
+      "current_headcount": 40,
+      "growth_rate_percent": 166.67,
+      "average_headcount": 37.9,
+      "peak_headcount": 76,
+      "peak_month": "06/2025",
+      "data_points": 43,
+      "historical_data": [
+        {
+          "month_year": "01/2022",
+          "headcount": 15
+        },
+        {
+          "month_year": "02/2022",
+          "headcount": 16
+        },
+        {
+          "month_year": "03/2022",
+          "headcount": 16
+        },
+        {
+          "month_year": "04/2022",
+          "headcount": 17
+        },
+        {
+          "month_year": "05/2022",
+          "headcount": 17
+        },
+        {
+          "month_year": "06/2022",
+          "headcount": 18
+        },
+        {
+          "month_year": "07/2022",
+          "headcount": 18
+        },
+        {
+          "month_year": "08/2022",
+          "headcount": 19
+        },
+        {
+          "month_year": "09/2022",
+          "headcount": 19
+        },
+        {
+          "month_year": "10/2022",
+          "headcount": 20
+        },
+        {
+          "month_year": "11/2022",
+          "headcount": 20
+        },
+        {
+          "month_year": "12/2022",
+          "headcount": 21
+        },
+        {
+          "month_year": "01/2023",
+          "headcount": 22
+        },
+        {
+          "month_year": "02/2023",
+          "headcount": 23
+        },
+        {
+          "month_year": "03/2023",
+          "headcount": 24
+        },
+        {
+          "month_year": "04/2023",
+          "headcount": 25
+        },
+        {
+          "month_year": "05/2023",
+          "headcount": 26
+        },
+        {
+          "month_year": "06/2023",
+          "headcount": 27
+        },
+        {
+          "month_year": "07/2023",
+          "headcount": 28
+        },
+        {
+          "month_year": "08/2023",
+          "headcount": 30
+        },
+        {
+          "month_year": "09/2023",
+          "headcount": 32
+        },
+        {
+          "month_year": "10/2023",
+          "headcount": 34
+        },
+        {
+          "month_year": "11/2023",
+          "headcount": 36
+        },
+        {
+          "month_year": "12/2023",
+          "headcount": 38
+        },
+        {
+          "month_year": "01/2024",
+          "headcount": 40
+        },
+        {
+          "month_year": "02/2024",
+          "headcount": 42
+        },
+        {
+          "month_year": "03/2024",
+          "headcount": 44
+        },
+        {
+          "month_year": "04/2024",
+          "headcount": 46
+        },
+        {
+          "month_year": "05/2024",
+          "headcount": 48
+        },
+        {
+          "month_year": "06/2024",
+          "headcount": 50
+        },
+        {
+          "month_year": "07/2024",
+          "headcount": 52
+        },
+        {
+          "month_year": "08/2024",
+          "headcount": 54
+        },
+        {
+          "month_year": "09/2024",
+          "headcount": 56
+        },
+        {
+          "month_year": "10/2024",
+          "headcount": 58
+        },
+        {
+          "month_year": "11/2024",
+          "headcount": 60
+        },
+        {
+          "month_year": "12/2024",
+          "headcount": 62
+        },
+        {
+          "month_year": "01/2025",
+          "headcount": 64
+        },
+        {
+          "month_year": "02/2025",
+          "headcount": 66
+        },
+        {
+          "month_year": "03/2025",
+          "headcount": 68
+        },
+        {
+          "month_year": "04/2025",
+          "headcount": 70
+        },
+        {
+          "month_year": "05/2025",
+          "headcount": 73
+        },
+        {
+          "month_year": "06/2025",
+          "headcount": 76
+        },
+        {
+          "month_year": "07/2025",
+          "headcount": 40
+        }
+      ],
+      "trends": {
+        "starting_headcount": 15,
+        "ending_headcount": 40,
+        "total_growth": 25,
+        "period_covered": "01/2022 to 07/2025"
+      }
+    },
+    "Information Technology": {
+      "department_code": "IT",
+      "current_headcount": 78,
+      "growth_rate_percent": 680.0,
+      "average_headcount": 37.0,
+      "peak_headcount": 78,
+      "peak_month": "07/2025",
+      "data_points": 43,
+      "historical_data": [
+        {
+          "month_year": "01/2022",
+          "headcount": 10
+        },
+        {
+          "month_year": "02/2022",
+          "headcount": 11
+        },
+        {
+          "month_year": "03/2022",
+          "headcount": 11
+        },
+        {
+          "month_year": "04/2022",
+          "headcount": 12
+        },
+        {
+          "month_year": "05/2022",
+          "headcount": 12
+        },
+        {
+          "month_year": "06/2022",
+          "headcount": 13
+        },
+        {
+          "month_year": "07/2022",
+          "headcount": 14
+        },
+        {
+          "month_year": "08/2022",
+          "headcount": 14
+        },
+        {
+          "month_year": "09/2022",
+          "headcount": 15
+        },
+        {
+          "month_year": "10/2022",
+          "headcount": 15
+        },
+        {
+          "month_year": "11/2022",
+          "headcount": 16
+        },
+        {
+          "month_year": "12/2022",
+          "headcount": 17
+        },
+        {
+          "month_year": "01/2023",
+          "headcount": 18
+        },
+        {
+          "month_year": "02/2023",
+          "headcount": 19
+        },
+        {
+          "month_year": "03/2023",
+          "headcount": 20
+        },
+        {
+          "month_year": "04/2023",
+          "headcount": 22
+        },
+        {
+          "month_year": "05/2023",
+          "headcount": 24
+        },
+        {
+          "month_year": "06/2023",
+          "headcount": 26
+        },
+        {
+          "month_year": "07/2023",
+          "headcount": 28
+        },
+        {
+          "month_year": "08/2023",
+          "headcount": 30
+        },
+        {
+          "month_year": "09/2023",
+          "headcount": 32
+        },
+        {
+          "month_year": "10/2023",
+          "headcount": 34
+        },
+        {
+          "month_year": "11/2023",
+          "headcount": 36
+        },
+        {
+          "month_year": "12/2023",
+          "headcount": 38
+        },
+        {
+          "month_year": "01/2024",
+          "headcount": 40
+        },
+        {
+          "month_year": "02/2024",
+          "headcount": 42
+        },
+        {
+          "month_year": "03/2024",
+          "headcount": 44
+        },
+        {
+          "month_year": "04/2024",
+          "headcount": 46
+        },
+        {
+          "month_year": "05/2024",
+          "headcount": 48
+        },
+        {
+          "month_year": "06/2024",
+          "headcount": 50
+        },
+        {
+          "month_year": "07/2024",
+          "headcount": 52
+        },
+        {
+          "month_year": "08/2024",
+          "headcount": 54
+        },
+        {
+          "month_year": "09/2024",
+          "headcount": 56
+        },
+        {
+          "month_year": "10/2024",
+          "headcount": 58
+        },
+        {
+          "month_year": "11/2024",
+          "headcount": 60
+        },
+        {
+          "month_year": "12/2024",
+          "headcount": 62
+        },
+        {
+          "month_year": "01/2025",
+          "headcount": 64
+        },
+        {
+          "month_year": "02/2025",
+          "headcount": 66
+        },
+        {
+          "month_year": "03/2025",
+          "headcount": 68
+        },
+        {
+          "month_year": "04/2025",
+          "headcount": 70
+        },
+        {
+          "month_year": "05/2025",
+          "headcount": 72
+        },
+        {
+          "month_year": "06/2025",
+          "headcount": 75
+        },
+        {
+          "month_year": "07/2025",
+          "headcount": 78
+        }
+      ],
+      "trends": {
+        "starting_headcount": 10,
+        "ending_headcount": 78,
+        "total_growth": 68,
+        "period_covered": "01/2022 to 07/2025"
+      }
+    },
+    "Retail Banking": {
+      "department_code": "RB",
+      "current_headcount": 390,
+      "growth_rate_percent": 116.67,
+      "average_headcount": 285.0,
+      "peak_headcount": 390,
+      "peak_month": "07/2025",
+      "data_points": 43,
+      "historical_data": [
+        {
+          "month_year": "01/2022",
+          "headcount": 180
+        },
+        {
+          "month_year": "02/2022",
+          "headcount": 185
+        },
+        {
+          "month_year": "03/2022",
+          "headcount": 190
+        },
+        {
+          "month_year": "04/2022",
+          "headcount": 195
+        },
+        {
+          "month_year": "05/2022",
+          "headcount": 200
+        },
+        {
+          "month_year": "06/2022",
+          "headcount": 205
+        },
+        {
+          "month_year": "07/2022",
+          "headcount": 210
+        },
+        {
+          "month_year": "08/2022",
+          "headcount": 215
+        },
+        {
+          "month_year": "09/2022",
+          "headcount": 220
+        },
+        {
+          "month_year": "10/2022",
+          "headcount": 225
+        },
+        {
+          "month_year": "11/2022",
+          "headcount": 230
+        },
+        {
+          "month_year": "12/2022",
+          "headcount": 235
+        },
+        {
+          "month_year": "01/2023",
+          "headcount": 240
+        },
+        {
+          "month_year": "02/2023",
+          "headcount": 245
+        },
+        {
+          "month_year": "03/2023",
+          "headcount": 250
+        },
+        {
+          "month_year": "04/2023",
+          "headcount": 255
+        },
+        {
+          "month_year": "05/2023",
+          "headcount": 260
+        },
+        {
+          "month_year": "06/2023",
+          "headcount": 265
+        },
+        {
+          "month_year": "07/2023",
+          "headcount": 270
+        },
+        {
+          "month_year": "08/2023",
+          "headcount": 275
+        },
+        {
+          "month_year": "09/2023",
+          "headcount": 280
+        },
+        {
+          "month_year": "10/2023",
+          "headcount": 285
+        },
+        {
+          "month_year": "11/2023",
+          "headcount": 290
+        },
+        {
+          "month_year": "12/2023",
+          "headcount": 295
+        },
+        {
+          "month_year": "01/2024",
+          "headcount": 300
+        },
+        {
+          "month_year": "02/2024",
+          "headcount": 305
+        },
+        {
+          "month_year": "03/2024",
+          "headcount": 310
+        },
+        {
+          "month_year": "04/2024",
+          "headcount": 315
+        },
+        {
+          "month_year": "05/2024",
+          "headcount": 320
+        },
+        {
+          "month_year": "06/2024",
+          "headcount": 325
+        },
+        {
+          "month_year": "07/2024",
+          "headcount": 330
+        },
+        {
+          "month_year": "08/2024",
+          "headcount": 335
+        },
+        {
+          "month_year": "09/2024",
+          "headcount": 340
+        },
+        {
+          "month_year": "10/2024",
+          "headcount": 345
+        },
+        {
+          "month_year": "11/2024",
+          "headcount": 350
+        },
+        {
+          "month_year": "12/2024",
+          "headcount": 355
+        },
+        {
+          "month_year": "01/2025",
+          "headcount": 360
+        },
+        {
+          "month_year": "02/2025",
+          "headcount": 365
+        },
+        {
+          "month_year": "03/2025",
+          "headcount": 370
+        },
+        {
+          "month_year": "04/2025",
+          "headcount": 375
+        },
+        {
+          "month_year": "05/2025",
+          "headcount": 380
+        },
+        {
+          "month_year": "06/2025",
+          "headcount": 385
+        },
+        {
+          "month_year": "07/2025",
+          "headcount": 390
+        }
+      ],
+      "trends": {
+        "starting_headcount": 180,
+        "ending_headcount": 390,
+        "total_growth": 210,
+        "period_covered": "01/2022 to 07/2025"
+      }
+    },
+    "Corporate": {
+      "department_code": "COP",
+      "current_headcount": 38,
+      "growth_rate_percent": 26.67,
+      "average_headcount": 47.4,
+      "peak_headcount": 64,
+      "peak_month": "12/2023",
+      "data_points": 43,
+      "historical_data": [
+        {
+          "month_year": "01/2022",
+          "headcount": 30
+        },
+        {
+          "month_year": "02/2022",
+          "headcount": 31
+        },
+        {
+          "month_year": "03/2022",
+          "headcount": 32
+        },
+        {
+          "month_year": "04/2022",
+          "headcount": 33
+        },
+        {
+          "month_year": "05/2022",
+          "headcount": 34
+        },
+        {
+          "month_year": "06/2022",
+          "headcount": 35
+        },
+        {
+          "month_year": "07/2022",
+          "headcount": 36
+        },
+        {
+          "month_year": "08/2022",
+          "headcount": 37
+        },
+        {
+          "month_year": "09/2022",
+          "headcount": 38
+        },
+        {
+          "month_year": "10/2022",
+          "headcount": 39
+        },
+        {
+          "month_year": "11/2022",
+          "headcount": 40
+        },
+        {
+          "month_year": "12/2022",
+          "headcount": 42
+        },
+        {
+          "month_year": "01/2023",
+          "headcount": 43
+        },
+        {
+          "month_year": "02/2023",
+          "headcount": 46
+        },
+        {
+          "month_year": "03/2023",
+          "headcount": 48
+        },
+        {
+          "month_year": "04/2023",
+          "headcount": 50
+        },
+        {
+          "month_year": "05/2023",
+          "headcount": 52
+        },
+        {
+          "month_year": "06/2023",
+          "headcount": 54
+        },
+        {
+          "month_year": "07/2023",
+          "headcount": 56
+        },
+        {
+          "month_year": "08/2023",
+          "headcount": 58
+        },
+        {
+          "month_year": "09/2023",
+          "headcount": 60
+        },
+        {
+          "month_year": "10/2023",
+          "headcount": 62
+        },
+        {
+          "month_year": "11/2023",
+          "headcount": 63
+        },
+        {
+          "month_year": "12/2023",
+          "headcount": 64
+        },
+        {
+          "month_year": "01/2024",
+          "headcount": 63
+        },
+        {
+          "month_year": "02/2024",
+          "headcount": 62
+        },
+        {
+          "month_year": "03/2024",
+          "headcount": 61
+        },
+        {
+          "month_year": "04/2024",
+          "headcount": 60
+        },
+        {
+          "month_year": "05/2024",
+          "headcount": 58
+        },
+        {
+          "month_year": "06/2024",
+          "headcount": 56
+        },
+        {
+          "month_year": "07/2024",
+          "headcount": 55
+        },
+        {
+          "month_year": "08/2024",
+          "headcount": 54
+        },
+        {
+          "month_year": "09/2024",
+          "headcount": 53
+        },
+        {
+          "month_year": "10/2024",
+          "headcount": 52
+        },
+        {
+          "month_year": "11/2024",
+          "headcount": 50
+        },
+        {
+          "month_year": "12/2024",
+          "headcount": 48
+        },
+        {
+          "month_year": "01/2025",
+          "headcount": 46
+        },
+        {
+          "month_year": "02/2025",
+          "headcount": 44
+        },
+        {
+          "month_year": "03/2025",
+          "headcount": 40
+        },
+        {
+          "month_year": "04/2025",
+          "headcount": 39
+        },
+        {
+          "month_year": "05/2025",
+          "headcount": 39
+        },
+        {
+          "month_year": "06/2025",
+          "headcount": 39
+        },
+        {
+          "month_year": "07/2025",
+          "headcount": 38
+        }
+      ],
+      "trends": {
+        "starting_headcount": 30,
+        "ending_headcount": 38,
+        "total_growth": 8,
+        "period_covered": "01/2022 to 07/2025"
+      }
+    },
+    "Human Resources": {
+      "department_code": "HR",
+      "current_headcount": 64,
+      "growth_rate_percent": 190.91,
+      "average_headcount": 43.0,
+      "peak_headcount": 64,
+      "peak_month": "07/2025",
+      "data_points": 43,
+      "historical_data": [
+        {
+          "month_year": "01/2022",
+          "headcount": 22
+        },
+        {
+          "month_year": "02/2022",
+          "headcount": 23
+        },
+        {
+          "month_year": "03/2022",
+          "headcount": 24
+        },
+        {
+          "month_year": "04/2022",
+          "headcount": 25
+        },
+        {
+          "month_year": "05/2022",
+          "headcount": 26
+        },
+        {
+          "month_year": "06/2022",
+          "headcount": 27
+        },
+        {
+          "month_year": "07/2022",
+          "headcount": 28
+        },
+        {
+          "month_year": "08/2022",
+          "headcount": 29
+        },
+        {
+          "month_year": "09/2022",
+          "headcount": 30
+        },
+        {
+          "month_year": "10/2022",
+          "headcount": 31
+        },
+        {
+          "month_year": "11/2022",
+          "headcount": 32
+        },
+        {
+          "month_year": "12/2022",
+          "headcount": 33
+        },
+        {
+          "month_year": "01/2023",
+          "headcount": 34
+        },
+        {
+          "month_year": "02/2023",
+          "headcount": 35
+        },
+        {
+          "month_year": "03/2023",
+          "headcount": 36
+        },
+        {
+          "month_year": "04/2023",
+          "headcount": 37
+        },
+        {
+          "month_year": "05/2023",
+          "headcount": 38
+        },
+        {
+          "month_year": "06/2023",
+          "headcount": 39
+        },
+        {
+          "month_year": "07/2023",
+          "headcount": 40
+        },
+        {
+          "month_year": "08/2023",
+          "headcount": 41
+        },
+        {
+          "month_year": "09/2023",
+          "headcount": 42
+        },
+        {
+          "month_year": "10/2023",
+          "headcount": 43
+        },
+        {
+          "month_year": "11/2023",
+          "headcount": 44
+        },
+        {
+          "month_year": "12/2023",
+          "headcount": 45
+        },
+        {
+          "month_year": "01/2024",
+          "headcount": 46
+        },
+        {
+          "month_year": "02/2024",
+          "headcount": 47
+        },
+        {
+          "month_year": "03/2024",
+          "headcount": 48
+        },
+        {
+          "month_year": "04/2024",
+          "headcount": 49
+        },
+        {
+          "month_year": "05/2024",
+          "headcount": 50
+        },
+        {
+          "month_year": "06/2024",
+          "headcount": 51
+        },
+        {
+          "month_year": "07/2024",
+          "headcount": 52
+        },
+        {
+          "month_year": "08/2024",
+          "headcount": 53
+        },
+        {
+          "month_year": "09/2024",
+          "headcount": 54
+        },
+        {
+          "month_year": "10/2024",
+          "headcount": 55
+        },
+        {
+          "month_year": "11/2024",
+          "headcount": 56
+        },
+        {
+          "month_year": "12/2024",
+          "headcount": 57
+        },
+        {
+          "month_year": "01/2025",
+          "headcount": 58
+        },
+        {
+          "month_year": "02/2025",
+          "headcount": 59
+        },
+        {
+          "month_year": "03/2025",
+          "headcount": 60
+        },
+        {
+          "month_year": "04/2025",
+          "headcount": 61
+        },
+        {
+          "month_year": "05/2025",
+          "headcount": 62
+        },
+        {
+          "month_year": "06/2025",
+          "headcount": 63
+        },
+        {
+          "month_year": "07/2025",
+          "headcount": 64
+        }
+      ],
+      "trends": {
+        "starting_headcount": 22,
+        "ending_headcount": 64,
+        "total_growth": 42,
+        "period_covered": "01/2022 to 07/2025"
+      }
+    },
+    "Treasury & Markets": {
+      "department_code": "TM",
+      "current_headcount": 90,
+      "growth_rate_percent": 100.0,
+      "average_headcount": 68.4,
+      "peak_headcount": 90,
+      "peak_month": "07/2025",
+      "data_points": 43,
+      "historical_data": [
+        {
+          "month_year": "01/2022",
+          "headcount": 45
+        },
+        {
+          "month_year": "02/2022",
+          "headcount": 46
+        },
+        {
+          "month_year": "03/2022",
+          "headcount": 47
+        },
+        {
+          "month_year": "04/2022",
+          "headcount": 48
+        },
+        {
+          "month_year": "05/2022",
+          "headcount": 49
+        },
+        {
+          "month_year": "06/2022",
+          "headcount": 50
+        },
+        {
+          "month_year": "07/2022",
+          "headcount": 52
+        },
+        {
+          "month_year": "08/2022",
+          "headcount": 54
+        },
+        {
+          "month_year": "09/2022",
+          "headcount": 55
+        },
+        {
+          "month_year": "10/2022",
+          "headcount": 56
+        },
+        {
+          "month_year": "11/2022",
+          "headcount": 57
+        },
+        {
+          "month_year": "12/2022",
+          "headcount": 58
+        },
+        {
+          "month_year": "01/2023",
+          "headcount": 60
+        },
+        {
+          "month_year": "02/2023",
+          "headcount": 61
+        },
+        {
+          "month_year": "03/2023",
+          "headcount": 62
+        },
+        {
+          "month_year": "04/2023",
+          "headcount": 63
+        },
+        {
+          "month_year": "05/2023",
+          "headcount": 64
+        },
+        {
+          "month_year": "06/2023",
+          "headcount": 65
+        },
+        {
+          "month_year": "07/2023",
+          "headcount": 66
+        },
+        {
+          "month_year": "08/2023",
+          "headcount": 67
+        },
+        {
+          "month_year": "09/2023",
+          "headcount": 68
+        },
+        {
+          "month_year": "10/2023",
+          "headcount": 69
+        },
+        {
+          "month_year": "11/2023",
+          "headcount": 70
+        },
+        {
+          "month_year": "12/2023",
+          "headcount": 71
+        },
+        {
+          "month_year": "01/2024",
+          "headcount": 72
+        },
+        {
+          "month_year": "02/2024",
+          "headcount": 73
+        },
+        {
+          "month_year": "03/2024",
+          "headcount": 74
+        },
+        {
+          "month_year": "04/2024",
+          "headcount": 75
+        },
+        {
+          "month_year": "05/2024",
+          "headcount": 76
+        },
+        {
+          "month_year": "06/2024",
+          "headcount": 77
+        },
+        {
+          "month_year": "07/2024",
+          "headcount": 78
+        },
+        {
+          "month_year": "08/2024",
+          "headcount": 79
+        },
+        {
+          "month_year": "09/2024",
+          "headcount": 80
+        },
+        {
+          "month_year": "10/2024",
+          "headcount": 81
+        },
+        {
+          "month_year": "11/2024",
+          "headcount": 82
+        },
+        {
+          "month_year": "12/2024",
+          "headcount": 83
+        },
+        {
+          "month_year": "01/2025",
+          "headcount": 84
+        },
+        {
+          "month_year": "02/2025",
+          "headcount": 85
+        },
+        {
+          "month_year": "03/2025",
+          "headcount": 86
+        },
+        {
+          "month_year": "04/2025",
+          "headcount": 87
+        },
+        {
+          "month_year": "05/2025",
+          "headcount": 88
+        },
+        {
+          "month_year": "06/2025",
+          "headcount": 89
+        },
+        {
+          "month_year": "07/2025",
+          "headcount": 90
+        }
+      ],
+      "trends": {
+        "starting_headcount": 45,
+        "ending_headcount": 90,
+        "total_growth": 45,
+        "period_covered": "01/2022 to 07/2025"
+      }
+    }
+  },
+  "monthly_totals": {
+    "01/2022": 390,
+    "02/2022": 402,
+    "03/2022": 412,
+    "04/2022": 422,
+    "05/2022": 439,
+    "06/2022": 454,
+    "07/2022": 467,
+    "08/2022": 482,
+    "09/2022": 497,
+    "10/2022": 508,
+    "11/2022": 519,
+    "12/2022": 535,
+    "01/2023": 552,
+    "02/2023": 571,
+    "03/2023": 589,
+    "04/2023": 605,
+    "05/2023": 627,
+    "06/2023": 646,
+    "07/2023": 665,
+    "08/2023": 685,
+    "09/2023": 705,
+    "10/2023": 728,
+    "11/2023": 745,
+    "12/2023": 760,
+    "01/2024": 777,
+    "02/2024": 798,
+    "03/2024": 814,
+    "04/2024": 830,
+    "05/2024": 847,
+    "06/2024": 863,
+    "07/2024": 877,
+    "08/2024": 897,
+    "09/2024": 910,
+    "10/2024": 931,
+    "11/2024": 947,
+    "12/2024": 955,
+    "01/2025": 963,
+    "02/2025": 970,
+    "03/2025": 977,
+    "04/2025": 982,
+    "05/2025": 993,
+    "06/2025": 1003,
+    "07/2025": 966
+  }
+}

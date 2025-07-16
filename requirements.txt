@@ -1,0 +1,14 @@
+asgiref
+Django
+django-extensions
+djangorestframework
+pillow
+sqlparse
+tzdata
+sqlalchemy
+faker
+dotenv
+numpy 
+pandas
+seaborn
+openai

@@ -1,0 +1,167 @@
+[
+    {
+      "Employee_id": "EMP001",
+      "Hire_date": "2022-01-15",
+      "Department_id": "ENG",
+      "Position_code": "SWE_SR",
+      "Contract_type": "Permanent",
+      "Employment_status": "Active",
+      "Gender": "Male",
+      "Age": 28,
+      "Job_level": 4
+    },
+    {
+      "Employee_id": "EMP002",
+      "Hire_date": "2021-03-10",
+      "Department_id": "ENG",
+      "Position_code": "SWE_JR",
+      "Contract_type": "Permanent",
+      "Employment_status": "Active",
+      "Gender": "Female",
+      "Age": 25,
+      "Job_level": 2
+    },
+    {
+      "Employee_id": "EMP003",
+      "Hire_date": "2023-06-20",
+      "Department_id": "SAL",
+      "Position_code": "SM_SR",
+      "Contract_type": "Permanent",
+      "Employment_status": "Active",
+      "Gender": "Male",
+      "Age": 32,
+      "Job_level": 5
+    },
+    {
+      "Employee_id": "EMP004",
+      "Hire_date": "2020-09-05",
+      "Department_id": "MKT",
+      "Position_code": "MM_MID",
+      "Contract_type": "Permanent",
+      "Employment_status": "Active",
+      "Gender": "Female",
+      "Age": 30,
+      "Job_level": 3
+    },
+    {
+      "Employee_id": "EMP005",
+      "Hire_date": "2019-11-12",
+      "Department_id": "HR",
+      "Position_code": "HR_SPE",
+      "Contract_type": "Permanent",
+      "Employment_status": "Active",
+      "Gender": "Female",
+      "Age": 29,
+      "Job_level": 3
+    },
+    {
+      "Employee_id": "EMP006",
+      "Hire_date": "2022-04-18",
+      "Department_id": "FIN",
+      "Position_code": "FIN_ANA",
+      "Contract_type": "Permanent",
+      "Employment_status": "Active",
+      "Gender": "Male",
+      "Age": 27,
+      "Job_level": 3
+    },
+    {
+      "Employee_id": "EMP007",
+      "Hire_date": "2021-08-22",
+      "Department_id": "ENG",
+      "Position_code": "SWE_MID",
+      "Contract_type": "Contract",
+      "Employment_status": "Active",
+      "Gender": "Male",
+      "Age": 26,
+      "Job_level": 3
+    },
+    {
+      "Employee_id": "EMP008",
+      "Hire_date": "2023-02-14",
+      "Department_id": "SAL",
+      "Position_code": "SM_JR",
+      "Contract_type": "Permanent",
+      "Employment_status": "Active",
+      "Gender": "Female",
+      "Age": 24,
+      "Job_level": 2
+    },
+    {
+      "Employee_id": "EMP009",
+      "Hire_date": "2020-07-30",
+      "Department_id": "MKT",
+      "Position_code": "MM_SR",
+      "Contract_type": "Permanent",
+      "Employment_status": "Leave",
+      "Gender": "Female",
+      "Age": 31,
+      "Job_level": 4
+    },
+    {
+      "Employee_id": "EMP010",
+      "Hire_date": "2018-12-03",
+      "Department_id": "FIN",
+      "Position_code": "FIN_MGR",
+      "Contract_type": "Permanent",
+      "Employment_status": "Active",
+      "Gender": "Male",
+      "Age": 35,
+      "Job_level": 6
+    },
+    {
+      "Employee_id": "EMP011",
+      "Hire_date": "2024-01-08",
+      "Department_id": "ENG",
+      "Position_code": "SWE_ENTRY",
+      "Contract_type": "Permanent",
+      "Employment_status": "Active",
+      "Gender": "Male",
+      "Age": 23,
+      "Job_level": 1
+    },
+    {
+      "Employee_id": "EMP012",
+      "Hire_date": "2023-09-15",
+      "Department_id": "HR",
+      "Position_code": "HR_MGR",
+      "Contract_type": "Permanent",
+      "Employment_status": "Active",
+      "Gender": "Female",
+      "Age": 38,
+      "Job_level": 7
+    },
+    {
+      "Employee_id": "EMP013",
+      "Hire_date": "2022-11-28",
+      "Department_id": "SAL",
+      "Position_code": "SM_MID",
+      "Contract_type": "Part-time",
+      "Employment_status": "Active",
+      "Gender": "Male",
+      "Age": 29,
+      "Job_level": 3
+    },
+    {
+      "Employee_id": "EMP014",
+      "Hire_date": "2021-05-17",
+      "Department_id": "MKT",
+      "Position_code": "MM_JR",
+      "Contract_type": "Contract",
+      "Employment_status": "Active",
+      "Gender": "Female",
+      "Age": 26,
+      "Job_level": 2
+    },
+    {
+      "Employee_id": "EMP015",
+      "Hire_date": "2019-03-25",
+      "Department_id": "ENG",
+      "Position_code": "SWE_LEAD",
+      "Contract_type": "Permanent",
+      "Employment_status": "Active",
+      "Gender": "Male",
+      "Age": 33,
+      "Job_level": 5
+    }
+  ]
