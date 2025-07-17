@@ -12,3 +12,8 @@ numpy
 pandas
 seaborn
 openai
+lightgbm
+prophet
+xgboost
+matplotlib
+scikit-learn

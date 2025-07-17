@@ -2,7 +2,7 @@ from rest_framework import viewsets, status
 from rest_framework.decorators import action, api_view
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
+from rest_framework.generics import ListAPIView, RetrieveAPIView
 from django.shortcuts import get_object_or_404
 from django.db import IntegrityError
 from django.db.models import Count, Sum, Avg, Q
@@ -24,17 +24,15 @@ from .serializers import (
 )
 
 
-class DepartmentViewSet(viewsets.ModelViewSet):
+class DepartmentViewSet(viewsets.ReadOnlyModelViewSet):
     """
-    ViewSet for Department CRUD operations
-    Provides: list, create, retrieve, update, partial_update, destroy
+    ViewSet for Department read-only operations
+    Provides: list, retrieve
     """
     queryset = Department.objects.select_related('manager').prefetch_related('positions', 'employees')
     
     def get_serializer_class(self):
-        if self.action in ['create', 'update', 'partial_update']:
-            return DepartmentCreateUpdateSerializer
-        elif self.action == 'list':
+        if self.action == 'list':
             return DepartmentListSerializer
         return DepartmentSerializer
     
@@ -142,22 +140,6 @@ class DepartmentViewSet(viewsets.ModelViewSet):
             
         return queryset.order_by('department_name')
     
-    def destroy(self, request, *args, **kwargs):
-        department = self.get_object()
-        
-        # Check if department has employees or positions
-        employee_count = Employee.objects.filter(department=department).count()
-        position_count = department.positions.count()
-        
-        if employee_count > 0 or position_count > 0:
-            return Response({
-                'error': f'Cannot delete department "{department.department_name}". It has {employee_count} employees and {position_count} positions.',
-                'employee_count': employee_count,
-                'position_count': position_count
-            }, status=status.HTTP_400_BAD_REQUEST)
-        
-        return super().destroy(request, *args, **kwargs)
-    
     @action(detail=True, methods=['get'])
     def employees(self, request, pk=None):
         """Get all employees in this department"""
@@ -175,8 +157,8 @@ class DepartmentViewSet(viewsets.ModelViewSet):
         serializer = PositionBasicSerializer(positions, many=True)
         return Response(serializer.data)
     
-    @action(detail=True, methods=['get'])
-    def analytics(self, request, pk=None):
+    @action(detail=False, methods=['get'])
+    def analytics(self, request):
         """Get detailed analytics for a specific department"""
         department = self.get_object()
         
@@ -354,148 +336,17 @@ class DepartmentViewSet(viewsets.ModelViewSet):
         })
 
 
-# Alternative class-based views for more granular control
-class DepartmentListCreateView(ListCreateAPIView):
-    """
-    API view for listing departments and creating new ones
-    GET /api/departments/ - List all departments
-    POST /api/departments/ - Create new department
-    """
-    queryset = Department.objects.select_related('manager').prefetch_related('positions')
-    
-    def get_serializer_class(self):
-        if self.request.method == 'POST':
-            return DepartmentCreateUpdateSerializer
-        return DepartmentListSerializer  # Use lightweight serializer for GET requests
-    
-    def get_queryset(self):
-        queryset = super().get_queryset()
-        
-        # Optional filtering
-        department_name = self.request.query_params.get('name', None)
-        if department_name is not None:
-            queryset = queryset.filter(department_name__icontains=department_name)
-        
-        location = self.request.query_params.get('location', None)
-        if location is not None:
-            queryset = queryset.filter(location__icontains=location)
-            
-        return queryset.order_by('department_name')
-
-
-class DepartmentDetailView(RetrieveUpdateDestroyAPIView):
-    """
-    API view for retrieving, updating, and deleting a specific department
-    GET /api/departments/{id}/ - Get department details
-    PUT /api/departments/{id}/ - Update department
-    PATCH /api/departments/{id}/ - Partial update department
-    DELETE /api/departments/{id}/ - Delete department
-    """
-    queryset = Department.objects.select_related('manager').prefetch_related('positions', 'employees')
-    lookup_field = 'department_id'
-    lookup_url_kwarg = 'department_id'
-    
-    def get_serializer_class(self):
-        if self.request.method in ['PUT', 'PATCH']:
-            return DepartmentCreateUpdateSerializer
-        return DepartmentSerializer
-    
-    def destroy(self, request, *args, **kwargs):
-        department = self.get_object()
-        
-        # Check if department has employees or positions
-        employee_count = Employee.objects.filter(department=department).count()
-        position_count = department.positions.count()
-        
-        if employee_count > 0 or position_count > 0:
-            return Response({
-                'error': f'Cannot delete department "{department.department_name}". It has {employee_count} employees and {position_count} positions.',
-                'employee_count': employee_count,
-                'position_count': position_count
-            }, status=status.HTTP_400_BAD_REQUEST)
-        
-        return super().destroy(request, *args, **kwargs)
-
-
-@api_view(['GET'])
-def department_summary(request):
-    """
-    API endpoint for department summary statistics
-    GET /api/departments/summary/
-    """
-    departments = Department.objects.select_related('manager').prefetch_related('positions')
-    
-    # Aggregate statistics
-    total_departments = departments.count()
-    total_budget = departments.aggregate(total=Sum('budget'))['total'] or 0
-    avg_budget = departments.aggregate(avg=Avg('budget'))['avg'] or 0
-    
-    # Department with most employees
-    dept_employee_counts = []
-    for dept in departments:
-        employee_count = Employee.objects.filter(department=dept).count()
-        dept_employee_counts.append({
-            'department': dept,
-            'employee_count': employee_count
-        })
-    
-    largest_dept = max(dept_employee_counts, key=lambda x: x['employee_count'], default=None)
-    smallest_dept = min(dept_employee_counts, key=lambda x: x['employee_count'], default=None)
-    
-    return Response({
-        'total_departments': total_departments,
-        'total_budget': round(total_budget, 2),
-        'average_budget': round(avg_budget, 2),
-        'largest_department': {
-            'name': largest_dept['department'].department_name if largest_dept else None,
-            'employee_count': largest_dept['employee_count'] if largest_dept else 0
-        },
-        'smallest_department': {
-            'name': smallest_dept['department'].department_name if smallest_dept else None,
-            'employee_count': smallest_dept['employee_count'] if smallest_dept else 0
-        },
-        'departments_by_location': list(departments.values('location').annotate(count=Count('location')).order_by('-count'))
-    })
-
-
-@api_view(['GET'])
-def active_managers(request):
-    """
-    API endpoint to get all employees who are department managers
-    GET /api/departments/managers/
-    """
-    managers = Employee.objects.filter(managed_departments__isnull=False).distinct()
-    serializer = EmployeeBasicSerializer(managers, many=True)
-    return Response({
-        'managers': serializer.data,
-        'total_managers': managers.count()
-    })
-
-
 # Employee Views
 
-class EmployeeViewSet(viewsets.ModelViewSet):
+class EmployeeViewSet(viewsets.ReadOnlyModelViewSet):
     """
-    ViewSet for Employee CRUD operations with detailed analytics
-    
-    Search and filtering options:
-    - name: Search by employee name (searches both first_name and last_name)
-    - department_name: Search by department name (case-insensitive)
-    - department: Filter by department ID
-    - status: Filter by employment status
-    - position: Filter by position ID
-    
-    Examples:
-    - GET /employees/?name=john - Find employees with 'john' in first or last name
-    - GET /employees/?department_name=finance - Find employees in Finance department
-    - GET /employees/?name=smith&department_name=IT - Find employees named 'smith' in IT
+    ViewSet for Employee read-only operations
+    Provides: list, retrieve
     """
     queryset = Employee.objects.select_related('department', 'position', 'manager').all()
     
     def get_serializer_class(self):
-        if self.action in ['create', 'update', 'partial_update']:
-            return EmployeeCreateUpdateSerializer
-        elif self.action == 'list':
+        if self.action == 'list':
             return EmployeeListSerializer
         return EmployeeDetailSerializer
     
@@ -512,23 +363,10 @@ class EmployeeViewSet(viewsets.ModelViewSet):
                 Q(last_name__icontains=name.split()[-1] if ' ' in name else name)
             )
         
-        # Search by department name
-        department_name = self.request.query_params.get('department_name', None)
-        if department_name is not None:
-            queryset = queryset.filter(department__name__icontains=department_name)
-        
-        # Optional filtering (existing functionality)
+        # Filter by department ID
         department_id = self.request.query_params.get('department', None)
         if department_id is not None:
             queryset = queryset.filter(department_id=department_id)
-        
-        employment_status = self.request.query_params.get('status', None)
-        if employment_status is not None:
-            queryset = queryset.filter(employment_status=employment_status)
-        
-        position_id = self.request.query_params.get('position', None)
-        if position_id is not None:
-            queryset = queryset.filter(position_id=position_id)
             
         return queryset.order_by('last_name', 'first_name')
     
